@@ -1,0 +1,102 @@
+<!--Esquema de HTML-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title class="titulo">Practicas 3ro C</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <script src="./main.js"></script>
+        <!-- Titulos -->
+        <h1>Hola 3C</h1> 
+        <!--Subtitulos-->
+        
+        <h2>Fotografia del grupo</h2> 
+        <!-- Agregar imagen -->
+        <img src="./src/FB_IMG_1712094694046.jpg" alt="Ocurrio un error al cargar la imagen" height="150"></img>
+        <img src="./src/FB_IMG_1712094698214.jpg" alt="Ocurrio un error al cargar la imagen" height="150"></img>
+        <img src="./src/FB_IMG_1712094702504.jpg" alt="Ocurrio un error al cargar la imagen" height="150"> 
+
+        <button type="button" onclick="capturar()">Capturar</button>
+        <button type="button" onclick="mostrar()">Mostrar</button>
+        <!--Conexión de la Calculadora-->
+        <h2 class="Subtitulo">Practicas</h2>
+        <ol>
+            <li><a href="./Practicas/Calculadora/Calculadora.html">Calculadora</a></li>
+        </ol>
+        <!-- Añadir listas ordenadas -->
+        <h2 class="subtitulo">Materias</h2>
+        <ol>
+                <li>Matematicas</li>
+                <li>Probabilidad</li>
+                <li>Calculo</li>
+                <li>Aplicaciones Web</li>
+                <li>Sistemas operativos</li>
+                <li>File</li>
+        </ol>
+        <!-- Añadir listas no ordenadas -->
+        <h2 class="subtitulo">Deportes</h2>
+        <ul>
+                <li>Futball</li>
+                <li>Voleyball</li>
+                <li>Basketball</li>
+        </ul>
+        <h2 id="especial">Links de intereses</h2>
+        <ol>
+                <li><a href="https://github.com/Dan27TH0">Peril de git</a></li>
+                <li><a href="https://uthh.edu.mx">Pagina de la UTHH</a></li>
+                <li><a href="./TIC.html">Carrera</a></li>
+        </ol>
+        <!-- Mostrar tablas -->     <!-- th = ENCABEZADO, td = Contenido --> <!--  -->
+        <h2 class="subtitulo">Horario de clases</h2>
+        <table border="1">
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Vierens</th>
+            </tr>
+            <tr>
+                <td>7:00 a 8:40</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>8:40 a 9:30</td>
+                <td>3A</td>
+                <td></td>
+                <td>3A</td>
+                <td></td>
+                <td>3A</td>
+            </tr>
+            <tr>
+                <td>10:20 a 10:50</td>
+                <td colspan="5">receso</td> <!-- Tablas irregulares (colspan) -->
+            </tr>
+            <tr> 
+                <td>10:50 a 12:30</td>
+                <td>3D</td>
+                <td></td>
+                <td>3D</td>
+                <td></td>
+                <td>3D</td>
+            </tr>
+            <tr>
+                <td>12:30 a 2:10</td>
+                <td>3C</td>
+                <td></td>
+                <td>3C</td>
+                <td></td>
+                <td>3C</td>
+            </tr>
+        </table>
+        
+    </body>
+</html>

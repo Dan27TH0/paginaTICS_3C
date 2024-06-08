@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+th{
+    background-color: gray;
+    color: aliceblue;
+    font-size: 25px;
+}
+.titulo{
+    font-size: 50px;
+    color: aquamarine;
+    font-weight: hold;
+    font-style: italic;
+}
+
+.subtitulo{
+    font-size: 35px;
+    color: green;
+    font-weight: 700;
+}
+#especial{
+    font-size: 30;
+    color: red;
+}
